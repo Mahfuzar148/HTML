@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <form>
+      <div>
+        <label for ="fullname"> Full name : </label>
+        <input type="text" name="fullname" id = "fullname" required>
+      </div><br>
+      <div>
+        <label for ="email"> E-mail : </label>
+        <input type="text" name="email" id = "email" required>
+      </div><br>
+      <div>
+        <label for ="password"> Password : </label>
+        <input type="password" name="password" id = "password">
+      </div><br>
+
+      <div>
+        <label for ="dob"> Date of Birth : </label>
+        <input type="date" name="dob" id = "dob">
+      </div><br>
+    <!--Photo-->
+      <div>
+        <label for ="photo"> Upload your photo : </label>
+        <input type="file" name="photo" id = "photo">
+      </div><br>
+   <!--Gender ,type = radio-->
+      <div>
+        <label for ="gender"> Select your gender : </label>
+        <input type="radio" name ="gender" id = "gender" value="male"> Male
+        <input type="radio" name ="gender" id = "gender" value="female"> Female
+        <input type="radio" name ="gender" id = "gender" value="other"> other
+      </div><br>
+      <!--Religion ,Type = checkbox-->
+      <div>
+        <label for ="religion"> Select your religion : </label>
+        <input checked type="checkbox" name ="religion" id = "islam" value="islam"> Islam
+        <input type="checkbox" name ="religion" id = "hindu" value="hindu"> Hindu
+        <input type="checkbox" name ="religion" id = "other" value="other"> Other
+      </div><br>
+     <!--Dropdown menu ,select tag,option tag-->
+      <div>
+        <label for ="department"> Department : </label>
+        <select name ="department" required>
+            <option selected value = "CSE"> CSE </option>
+            <option value = "EEE"> EEE </option>
+            <option value = "ICE"> ICE </option>
+            <option value = "ACCE"> ACCE </option>
+            <option value = "Pharmacy"> Pharmacy </option>
+
+        </select>
+      </div><br>
+      <div>
+        <label for ="Comment"> Comment : </label>
+        <textarea cols ="30" rows="15"></textarea>
+      </div>
+
+      <div>
+       <input type ="submit" value="Register">
+       <input type ="reset" value="Clear">
+      </div>
+
+
+
+    </form>
+</body>
+</html>
