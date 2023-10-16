@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+    <style type ="text/CSS">
+      h1{
+        color:green;
+        font-size : 25px;
+      }
+      p{
+        color :rgb(8, 0, 255);
+        font-size : 125%;
+      }
+    </style>
+</head>
+<body>
+    <h1 >I am from Bangladesh</h1>
+    <h1 >I am from finland</h1>
+    <p >
+        There are many things in nature for which we should be thankful. One of them definitely has to be flowers. 
+        There are many types of flowers which we see in our environment. 
+        The beautiful fragrances and flowers enhance the beauty of our planet earth. 
+        Through flowers essay, we will look at what these beautiful things do and how much joy they bring.
+    </p>
+    
+</body>
+</html>
